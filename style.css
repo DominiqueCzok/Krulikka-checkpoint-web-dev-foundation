@@ -1,0 +1,9 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+    background-color: #e5e5e5;
+}

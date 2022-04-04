@@ -6,4 +6,19 @@
 
 html {
     background-color: #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #fbfbfb;
+    max-width: 600px;
+    margin: 5rem auto;
+}
+
+.svg-arrow1 {
+    color: #6A1CC3;
+}
+
+.svg-arrow2 {
+    color: #8849CF;
 }

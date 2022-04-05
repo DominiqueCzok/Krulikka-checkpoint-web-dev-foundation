@@ -15,10 +15,155 @@ body {
     margin: 5rem auto;
 }
 
+main {
+    margin: 2rem;
+}
+
+.svg-header {
+    background-color: #6A1CC3;
+    padding: 1rem;
+    display: flex;
+}
+
+.bi-list {
+    color: white;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #fbfbfb; 
+}
+
+.header-bottom {
+    position: relative;
+}
+
 .svg-arrow1 {
     color: #6A1CC3;
 }
 
 .svg-arrow2 {
     color: #8849CF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h2 {
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: rem;
+    color: #00000099;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    padding-left: 1rem;    
+    color: #6A1CC3;
+    border: solid;
+    
+   
+}
+
+.fel-stud {
+    margin: 0 auto;
+    color: #00000099;
+}
+
+.box {
+    border: solid;
+    border-color: #6A1CC3;
+    border-width: 1,75px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 0px #6A1CC3;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+}
+
+.student {
+    margin: 0;
+    color: #6A1CC3;
+}
+
+a {
+    font-size: 0,25rem;
+    color: #6A1CC3
+}
+
+.bi-person {
+    background-color: #8849CF;
+    color: #fbfbfb;
+    height: 39px;
+    width: 39px;
+    margin-right: 3rem;
+}
+input {
+    background-color: #fbfbfb;
+    border: solid;
+    border-color: #6A1CC3;
+    border-width: 1,75px;
+    border-radius: 2px;
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    margin: 1 auto;
+    padding: 1rem;
+    display: flex;
+}
+
+.search1 {
+    position: relative;
+    display: flex;
+    
+}
+
+.svg-img {
+    color: #6A1CC3;
+    position: absolute;
+    margin: 1rem;
+    right: 8px;
+}
+
+.select-wrapper1 {
+    position: relative;
+    display: flex; 
+    margin-top: 1rem;
+    width: 250px;
+}
+
+.svg-down1 {
+    color: #6A1CC3;
+    position: absolute;
+    margin: 1rem;
+    right: 5px;
+}
+
+.select-wrapper2 {
+    position: relative;
+    display: flex; 
+    margin-top: 1rem;
+    width: 250px;
+    justify-content: flex-end;
+}
+
+.svg-down2 {
+    color: #6A1CC3;
+    position: absolute;
+    margin: 1rem;
+    right: 5px;
+}
+
+
+
+::placeholder {
+color: #4B148A61
 }

@@ -123,6 +123,7 @@ input {
 .search1 {
     position: relative;
     display: flex;
+    margin-top: 1rem;
     
 }
 
